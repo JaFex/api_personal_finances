@@ -27,7 +27,7 @@ var dashboard = new ParseDashboard({
     }
   ],
   useEncryptedPasswords: true
-});
+}, {allowInsecureHTTP: true});
  
 // Serve the Parse API on the /parse URL prefix
 app.use('/parse', api);
