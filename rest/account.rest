@@ -1,0 +1,12 @@
+
+### Hello world
+# Description: Hello world method.
+POST {{URL}}/functions/helloWorld
+Content-Type: application/json
+X-Parse-Application-Id: personalFinances
+
+### Hello world
+# Description: Hello world method.
+POST {{URL}}/functions/test
+Content-Type: application/json
+X-Parse-Application-Id: personalFinances
