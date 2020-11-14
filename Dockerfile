@@ -1,5 +1,4 @@
-FROM node:lts-alpine
-
+FROM node:12.19-alpine
 RUN mkdir parse
 
 ADD . /parse
